@@ -1,0 +1,29 @@
+{
+    "name": "finbarrmccarthy/forgotpassword-doctrine-orm",
+    "description": "Doctrine2 ORM storage adapter for ForgotPassword.",
+    "type": "library",
+    "keywords": [
+        "zf2"
+    ],
+    "homepage": "https://github.com/finbarrmccarthy/ForgotPasswordDoctrineORM",
+    "authors": [
+        {
+            "name": "Finbarr McCarthy",
+            "email": "finbarr@finbarr.org",
+            "homepage": "http://finbarr.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "finbarrmccarthy/forgotpassword": "dev-master",
+        "doctrine/doctrine-orm-module": "0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "ForgotPasswordDoctrineORM": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
