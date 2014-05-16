@@ -1,6 +1,6 @@
 {
     "name": "finbarrmccarthy/forgotpassword-doctrine-orm",
-    "description": "Doctrine2 ORM storage adapter for ForgotPassword.",
+    "description": "Doctrine2 ORM storage adapter for ForgotPassword. (Custom)",
     "type": "library",
     "keywords": [
         "zf2"
